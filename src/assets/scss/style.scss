@@ -1,0 +1,65 @@
+body,
+html {
+  font-family: Roboto !important;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+
+  &_theme_transparent {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 17px 57px;
+  border: 1px solid #000000;
+  background: #c4c4c4;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  &:focus,
+  &:hover {
+    outline: none;
+    border: 1px solid #555;
+    color: #555;
+  }
+
+  &_theme_transparent {
+    background: transparent;
+  }
+}
